@@ -652,7 +652,6 @@ static String color_resources[] = {
   "*TroughColor:                        #545454545454",
   "*XmSelectionBox*Background:	 	#afafafafafaf",
   "*XmMessageBox*Background:	 	#afafafafafaf",
-  "*XmLabel*Foreground:                 #1d1d15155b5b",
   "*XmToggleButton*Foreground:          #1d1d15155b5b",
   "*XmPushButton*Foreground:            #5b5b00000000",
   "*logo*Foreground:                    #1d1d15155b5b",
@@ -674,7 +673,6 @@ static String color_resources[] = {
 #else /* not sgi */
   "*Foreground:			 	#000000000000",
   "*XmScrollBar*Foreground:             #bfbfbfbfbfbf",
-  "*XmLabel*Foreground:                 #1d1d15155b5b",
   "*XmToggleButton*Foreground:          #1d1d15155b5b",
   "*XmPushButton*Foreground:            #5b5b00000000",
   "*logo*Foreground:                    #1d1d15155b5b",
