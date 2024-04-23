@@ -67,7 +67,7 @@ static XtResource resources[] = {
 
   /* default font choice from Options menu choices */
   { "defaultFontChoice", "DefaultFontChoice", XtRString, sizeof (char *),
-    offset (default_font_choice), XtRString, "TimesRegular" },
+    offset (default_font_choice), XtRString, "HelveticaRegular" },
   { "kiosk", "Kiosk", XtRBoolean, sizeof (Boolean), 
       offset (kiosk), XtRString, "False" },
   { "kioskPrint", "KioskPrint", XtRBoolean, sizeof (Boolean), 
