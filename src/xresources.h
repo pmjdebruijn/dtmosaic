@@ -372,7 +372,7 @@ static XtResource resources[] = {
       offset (instamap), XtRString, "False" },
 
   { "splashScreen", "SplashScreen", XtRBoolean, sizeof (Boolean),
-      offset (splashScreen), XtRString, "True" },
+      offset (splashScreen), XtRString, "False" },
 
 /* Customizations for Mosaic-CK */
   { "imageViewInternal", "ImageViewInternal", XtRBoolean, sizeof (Boolean),
