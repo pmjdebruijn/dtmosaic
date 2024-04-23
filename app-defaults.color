@@ -47,8 +47,6 @@ Mosaic*XmMenuShell*XmLabelGadget*marginHeight: 4
 Mosaic*XmToggleButtonGadget*spacing: 	4
 Mosaic*XmToggleButton*spacing: 	4
 Mosaic*XmScrolledWindow*spacing: 	0
-Mosaic*XmScrollBar*width: 		        18
-Mosaic*XmScrollBar*height: 		18
 Mosaic*XmScale*scaleHeight: 		20
 Mosaic*XmText*marginHeight:		4
 Mosaic*fsb*XmText*width:                   420
