@@ -19,6 +19,7 @@ dev_::
 	@echo "[DEV_ARCH] to one of the following:"
 	@echo "-- CURRENTLY SUPPORTED --"
 	@echo "  linux -- Linux 4.x or 5.x, shared libraries"
+	@echo "  netbsd -- NetBSD, shared libraries"
 	@echo "  macos -- 64-bit macOS x86_64 with homebrew"
 	@echo "  ppcmt -- PowerPC running Power MachTen 4.1.4 or higher"
 	@echo "  osx -- 32-bit Mac OS X 10.4+ PPC OR x86 (earlier possible but unsupported)"
@@ -101,6 +102,14 @@ p_linux: rm_and_touch
 	$(MAKE) -f makefiles/Makefile.linux purifyd DEV_ARCH=linux
 q_linux: rm_and_touch
 	$(MAKE) -f makefiles/Makefile.linux quantifyd DEV_ARCH=linux
+
+dev_netbsd: rm_and_touch netbsd
+netbsd: rm_and_touch
+	$(MAKE) -f makefiles/Makefile.netbsd DEV_ARCH=netbsd
+p_netbsd: rm_and_touch
+	$(MAKE) -f makefiles/Makefile.netbsd purifyd DEV_ARCH=netbsd
+q_netbsd: rm_and_touch
+	$(MAKE) -f makefiles/Makefile.netbsd quantifyd DEV_ARCH=netbsd
 
 ####### THESE ARE NOT! #######
 
