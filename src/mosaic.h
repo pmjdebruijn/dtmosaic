@@ -139,37 +139,37 @@ typedef enum
 /* This must be a straight string as it is included into a struct; 
    no tricks. */
 #define HOME_PAGE_DEFAULT \
-  "http://www.floodgap.com/retrotech/machten/mosaic/"
+  "http://frogfind.com"
 #endif /* not HOME_PAGE_DEFAULT */
 
 #ifndef WHATSNEW_PAGE_DEFAULT
 #define WHATSNEW_PAGE_DEFAULT \
-  "http://www.floodgap.com/retrotech/machten/mosaic/"
+  "http://frogfind.com"
 #endif /* not WHATSNEW_PAGE_DEFAULT */
 
 #ifndef DEMO_PAGE_DEFAULT
 #define DEMO_PAGE_DEFAULT \
-  "http://www.floodgap.com/retrotech/machten/mosaic/"
+  "http://frogfind.com"
 #endif /* not DEMO_PAGE_DEFAULT */
 
 #ifndef HTMLPRIMER_PAGE_DEFAULT
 #define HTMLPRIMER_PAGE_DEFAULT \
-  "http://www.floodgap.com/retrotech/machten/mosaic/"
+  "http://frogfind.com"
 #endif /* not HTMLPRIMER_PAGE_DEFAULT */
 
 #ifndef URLPRIMER_PAGE_DEFAULT
 #define URLPRIMER_PAGE_DEFAULT \
-  "http://www.floodgap.com/retrotech/machten/mosaic/"
+  "http://frogfind.com"
 #endif /* not URLPRIMER_PAGE_DEFAULT */
 
 #ifndef NETWORK_STARTING_POINTS_DEFAULT
 #define NETWORK_STARTING_POINTS_DEFAULT \
-  "http://www.floodgap.com/retrotech/machten/mosaic/"
+  "http://frogfind.com"
 #endif /* not NETWORK_STARTING_POINTS_DEFAULT */
 
 #ifndef INTERNET_METAINDEX_DEFAULT
 #define INTERNET_METAINDEX_DEFAULT \
-  "http://www.floodgap.com/retrotech/machten/mosaic/"
+  "http://frogfind.com"
 #endif /* not INTERNET_METAINDEX_DEFAULT */
 
 #ifndef DOCUMENTS_MENU_SPECFILE
