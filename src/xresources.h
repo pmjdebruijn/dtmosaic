@@ -87,10 +87,10 @@ static XtResource resources[] = {
   /* Default width for a Document View window.  This will change as windows
      are cloned. */
   { "defaultWidth", "DefaultWidth", XtRInt, sizeof (int),
-      offset (default_width), XtRString, "640" },
+      offset (default_width), XtRString, "830" },
   /* Default height for a Document View window. */
   { "defaultHeight", "DefaultHeight", XtRInt, sizeof (int),
-      offset (default_height), XtRString, "700" },
+      offset (default_height), XtRString, "630" },
   /* Startup document. */
   { "homeDocument", "HomeDocument", XtRString, sizeof (char *),
       offset (home_document), XtRString, 
