@@ -218,10 +218,7 @@ char *buf=NULL;
 			perror("Title Buffer");
 			return(mo_fail);
 		}
-		sprintf(buf,"%s [%s",pre_title,win->current_node->title);
-		/*annoying junk at end*/
-		buf[strlen(buf)]='\0';
-		strcat(buf,"]");
+		sprintf(buf,"%s - %s",pre_title,win->current_node->title);
 		buf[strlen(buf)]='\0';
 		XtVaSetValues(win->base,
 			     XmNtitle,buf,
@@ -234,7 +231,7 @@ char *buf=NULL;
 			perror("Title Buffer");
 			return(mo_fail);
 		}
-		sprintf(buf,"%s: [%s]",pre_title,"No Title" );
+		sprintf(buf,"%s - %s",pre_title,"No Title" );
 		buf[strlen(buf)]='\0';
 		XtVaSetValues(win->base,
 			     XmNtitle,buf,
