@@ -597,30 +597,6 @@ static XrmOptionDescRec options[] = {
 };
 
 static String color_resources[] = {
-  "*XmList*listMarginWidth:        3",
-  "*XmMenuShell*marginLeft:  	3",
-  "*XmMenuShell*marginRight:  	4",
-  "*XmMenuShell*XmToggleButtonGadget*spacing: 	 2",
-  "*XmMenuShell*XmToggleButtonGadget*marginHeight:  0",
-  "*XmMenuShell*XmToggleButtonGadget*indicatorSize: 12",
-  "*XmMenuShell*XmLabelGadget*marginHeight: 4",
-  "*XmToggleButtonGadget*spacing: 	4",
-  "*XmToggleButton*spacing: 	4",
-  "*XmScrolledWindow*spacing: 	0",
-  "*XmScale*scaleHeight: 		20",
-  "*XmText*marginHeight:		4",
-  "*fsb*XmText*width:                   420",
-  "*fsb*XmTextField*width:                   420",
-  "*fillOnSelect:			True",
-  "*visibleWhenOff:		        True",
-  "*XmText*highlightThickness:		0",
-  "*XmTextField*highlightThickness:	0",
-  "*XmPushButton*highlightThickness:	0",
-  "*XmScrollBar*highlightThickness:     0",
-  "*highlightThickness:	                0",
-  /* "*geometry:                           +400+200", */
-  /*  "*keyboardFocusPolicy:                pointer",*/
-  
   "*TitleFont: -adobe-times-bold-r-normal-*-25-*-*-*-*-*-iso8859-1",
   "*Font: -adobe-times-medium-r-normal-*-17-*-*-*-*-*-iso8859-1",
   "*ItalicFont: -adobe-times-medium-i-normal-*-17-*-*-*-*-*-iso8859-1",
@@ -710,42 +686,6 @@ static String color_resources[] = {
 };
 
 static String mono_resources[] = {
-  "*optionmenu*marginHeight: 	0",
-  "*optionmenu*marginTop: 		5",
-  "*optionmenu*marginBottom: 	5",
-  "*optionmenu*marginWidth: 	5",
-  "*pulldownmenu*XmPushButton*marginHeight:	1",
-  "*pulldownmenu*XmPushButton*marginWidth:	1",
-  "*pulldownmenu*XmPushButton*marginLeft:	3",
-  "*pulldownmenu*XmPushButton*marginRight:	3",
-  "*XmList*listMarginWidth:        3",
-  "*menubar*marginHeight: 		1",
-  "*menubar.marginHeight: 		0",
-  "*menubar*marginLeft:  		1",
-  "*menubar.spacing:  		7",
-  "*XmMenuShell*marginLeft:  	3",
-  "*XmMenuShell*marginRight:  	4",
-  "*XmMenuShell*XmToggleButtonGadget*spacing: 	 2",
-  "*XmMenuShell*XmToggleButtonGadget*marginHeight:  0",
-  "*XmMenuShell*XmToggleButtonGadget*indicatorSize: 12",
-  "*XmMenuShell*XmLabelGadget*marginHeight: 4",
-  "*XmToggleButtonGadget*spacing: 	4",
-  "*XmToggleButton*spacing: 	4",
-  "*XmScrolledWindow*spacing: 	0",
-  "*XmScale*scaleHeight: 		20",
-  "*XmText*marginHeight:		4",
-  "*fsb*XmText*width:                   420",
-  "*fsb*XmTextField*width:                   420",
-  "*fillOnSelect:			True",
-  "*visibleWhenOff:		        True",
-  "*XmText*highlightThickness:		0",
-  "*XmTextField*highlightThickness:	0",
-  "*XmPushButton*highlightThickness:	0",
-  "*XmScrollBar*highlightThickness:     0",
-  "*highlightThickness:	                0",
-  /* "*geometry:                           +400+200", */
-  /*   "*keyboardFocusPolicy:                pointer", */
-
 /*
   "*TitleFont: -adobe-times-bold-r-normal-*-25-*-*-*-*-*-iso8859-1",
   "*Font: -adobe-times-medium-r-normal-*-17-*-*-*-*-*-iso8859-1",
