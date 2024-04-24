@@ -256,7 +256,7 @@ clean:
 	cd libnet; $(MAKE) clean || echo 'never mind'
 	cd libnut; $(MAKE) clean || echo 'never mind'
 	cd libwww2; $(MAKE) clean || echo 'never mind'
-	cd src; $(MAKE) clean MOSAIC="Mosaic"
+	cd src; $(MAKE) clean MOSAIC="dtmosaic"
 	rm -f motifmaclauncher/mosaic-mml motifmaclauncher/mosaic-mml-wtf
 	rm -rf motifmaclauncher/build
 	@echo "Done cleaning..."

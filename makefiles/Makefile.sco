@@ -254,7 +254,7 @@ libnut::
 
 src::
 	@echo --- Building src
-	cd src; $(MAKE) CC=$(CC) RANLIB=$(RANLIB) LDFLAGS="$(ldflags)" CFLAGS="$(CFLAGS) $(customflags) $(xinc) $(jpegflags) $(dtmflags) $(hdfflags) $(pngflags) $(krbflags) -I.. -I../libXmx -I../libwww2" AUX_CFLAGS=$(knrflag) X_LIBS="$(xlibs)" SYS_LIBS="$(sockslibs) $(syslibs)" DTM_LIBS="$(dtmlibs)" HDF_LIBS="$(hdflibs)" WAIS_LIBS="$(waislibs)" LIBWWW_DIR=../libwww2 JPEG_LIBS="$(jpeglibs)" PNG_LIBS="$(pnglibs)" KRB_LIBS="$(krblibs)" LIBNUT_DIR=../libnut MOSAIC="Mosaic"
+	cd src; $(MAKE) CC=$(CC) RANLIB=$(RANLIB) LDFLAGS="$(ldflags)" CFLAGS="$(CFLAGS) $(customflags) $(xinc) $(jpegflags) $(dtmflags) $(hdfflags) $(pngflags) $(krbflags) -I.. -I../libXmx -I../libwww2" AUX_CFLAGS=$(knrflag) X_LIBS="$(xlibs)" SYS_LIBS="$(sockslibs) $(syslibs)" DTM_LIBS="$(dtmlibs)" HDF_LIBS="$(hdflibs)" WAIS_LIBS="$(waislibs)" LIBWWW_DIR=../libwww2 JPEG_LIBS="$(jpeglibs)" PNG_LIBS="$(pnglibs)" KRB_LIBS="$(krblibs)" LIBNUT_DIR=../libnut MOSAIC="dtmosaic"
 
 src-purifyd::
 	@echo --- Building Purify'd src
