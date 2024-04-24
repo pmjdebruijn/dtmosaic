@@ -3652,7 +3652,7 @@ static mo_window *mo_make_window (Widget parent, mo_window *parentw)
   Atom WM_DELETE_WINDOW;
   char buf[80];
 
-  sprintf(pre_title,"Floodgap X Mosaic-CK %s",MO_VERSION_STRING);
+  sprintf(pre_title,"Mosaic Web Browser");
   sprintf(buf,"%s: ",pre_title);
   XmxSetArg (XmNtitle, (long)buf);
   XmxSetArg (XmNiconName, (long)"Mosaic");
